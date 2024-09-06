@@ -1,0 +1,43 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 430px;
+    padding: 10px;
+    padding-top: 15px;
+    border: 2px solid rgb(0, 0, 1);
+    border-radius: 6px;
+}
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    font-size: 500;
+}
+.field {
+    margin-bottom: 20px;
+    border: 2px solid rgb(104, 113, 123);
+    border-radius: 4px;
+    padding: 10px;
+
+    font-style: italic;
+}
+.label {
+    color: rgb(21, 30, 45);
+    font-weight: 700;
+
+}
+
+.button {
+    border: 2px solid rgb(23, 23, 23);
+    border-radius: 6px;
+    width: 170x;
+    color: rgb(14, 14, 13);
+    background-color: rgb(227, 224, 224);
+    padding: 8px;
+}
+.error {
+    margin-top: -20px;
+    color: red;
+}

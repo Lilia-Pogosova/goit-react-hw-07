@@ -1,0 +1,19 @@
+.container {
+    margin: 10px 0;
+}
+
+.title {
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: larger;
+    margin: 0;
+}
+
+.input {
+    width: 430px;
+    border: 2px solid rgb(129, 130, 130);
+    border-radius: 4px;
+    padding: 10px;
+    color: rgb(54, 54, 56);
+    font-style: italic;
+}
